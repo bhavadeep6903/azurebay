@@ -1,0 +1,125 @@
+.heading {
+    position: relative;
+    margin-top: 100px;
+    left: 80px;
+}
+
+.App {
+    /* text-align: center; */
+    
+
+}
+
+.App-header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    height: 300px;
+    background: linear-gradient( #a8c0ff, #f8f8f8, #f8f8f8); /* Adjust colors */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store-text {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+    color: #333;
+    width: 636px;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+
+.store-highlight {
+    color: #007aff;
+    background: linear-gradient(to right, #007aff, #ff2d55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.help-section {
+    margin-top: 20px;
+}
+
+.help-item {
+    margin: 0 20px;
+    text-align: left;
+    flex: 1; 
+    max-width: 300px;
+}
+
+.specialist-image, .store-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.help-link {
+    color: #007aff;
+    text-decoration: none;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    flex-wrap: wrap; 
+    height: 236px;
+}
+
+.b1 {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        margin-top: 50px;
+        left: 20px;
+    }
+    .store-text {
+        font-size: 2em;
+    }
+    .help-section {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .photo {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .heading {
+        margin-top: 30px;
+        left: 10px;
+    }
+    .store-text {
+        font-size: 1.5em;
+    }
+    .help-item {
+        margin: 10px 0; 
+    }
+    .photo {
+        padding: 10px;
+        justify-content: center;
+    }
+    .specialist-image, .store-icon {
+        width: 40px;
+        height: 40px;
+    }
+}

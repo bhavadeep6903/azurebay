@@ -1,0 +1,86 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msFQx.img');
+    background-size: cover;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1d1d1f;
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.link {
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #005bb5; 
+}
+
+.ancer {
+    font-size: 18px;
+    font-weight: 500;
+    color: #d91e18; 
+    text-decoration: none;
+    margin-left: 50px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.ancer:hover {
+    color: #b81b16; 
+}
+
+.child {
+    flex: 1;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.95); 
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    background: linear-gradient(to bottom, #f5f5f7, #e1e2e4);
+}
+
+@media (max-width: 768px) {
+    .dashboard {
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+
+    .link {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .child {
+        padding: 15px 20px;
+        margin: 10px auto;
+        width: 95%;
+    }
+}

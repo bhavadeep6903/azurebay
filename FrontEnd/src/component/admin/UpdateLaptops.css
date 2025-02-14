@@ -1,0 +1,89 @@
+.update_main {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent background */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1d1d1f;
+    background-image: url('https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.update_main h4 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #1d1d1f;
+    font-weight: 600;
+}
+
+.update_box {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.update_box label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6e6e73;
+    margin-bottom: 8px;
+}
+
+.update_box input[type="number"],
+.update_box input[type="text"],
+.update_box input[type="file"],
+.update_box textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #d2d2d7;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #1d1d1f;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.update_box input:focus,
+.update_box textarea:focus {
+    border-color: #0071e3; /* Apple's blue */
+    box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.2);
+}
+
+.update_box textarea {
+    resize: none;
+    height: 100px;
+}
+
+.update_but {
+    width: 100%;
+    padding: 14px;
+    background-color: #0071e3; /* Apple's blue */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.update_but:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+    font-size: 13px;
+    color: #d93025; /* Red error color */
+    margin-top: 6px;
+}
+
+/* Add gradient background to the body */
+body {
+    background: linear-gradient(to bottom, #f5f5f7, #e1e2e4); /* Soft gradient */
+}

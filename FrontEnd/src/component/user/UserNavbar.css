@@ -1,0 +1,179 @@
+/* General Navigation Styles */
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22px;
+    height: 44px;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.nav1-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 972px;
+    margin-left: 130px;
+}
+
+.nav2 {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 400;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+}
+
+.nav2:hover {
+    text-decoration: underline;
+    transform: scale(1.05); /* Slight zoom */
+    color: #555; /* Change color on hover */
+}
+
+.fa-magnifying-glass {
+    font-size: 13px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fa-magnifying-glass:hover {
+    transform: scale(1.2); /* Slight zoom */
+    color: #0073e6; /* Highlight color */
+}
+
+.fa-shopping-bag,
+.fa-user-gear {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.emi {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+
+.p1 {
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Dropdown Menu Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+}
+
+.dropbtn:hover {
+    background-color: #eee;
+    transform: translateY(-2px); /* Slight lift */
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background: linear-gradient( #f8f8f8, #f8f8f8,#a8c0ff); /* Adjust colors */
+    width: 100vw;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+    min-height: 400px;
+    opacity: 0;
+    transform: translateY(-20px); /* Slide from above */
+    transition: opacity 0.4s ease, transform 0.4s ease; /* Smooth dropdown animation */
+}
+
+.dropdown-content .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0); /* Slide into view */
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    display: block;
+    padding: 8px 0;
+    padding-left: 120px;
+    transition: background-color 0.3s ease, padding-left 0.3s ease; /* Smooth link hover */
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    padding-left: 140px; /* Slight padding increase */
+}
+
+/* Input Field Styles */
+.dropdown-content input[type="search"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth focus effect */
+}
+
+.dropdown-content input[type="search"]:focus {
+    box-shadow: 0 0 8px rgba(0, 115, 230, 0.5);
+    border-color: #0073e6;
+    
+}
+.container-heading{
+    margin-left: 110px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav1 {
+        margin: 0px 40px;
+        padding: 0px 16px;
+        flex-wrap: wrap;
+    }
+
+    .fa-magnifying-glass {
+        font-size: 18px;
+    }
+
+    .nav2 {
+        font-size: 12px;
+    }
+
+    .emi {
+        padding: 8px 16px;
+    }
+
+    .h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+        margin: 0px 4px;
+    }
+}
+

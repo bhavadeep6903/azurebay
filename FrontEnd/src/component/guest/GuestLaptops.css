@@ -1,0 +1,141 @@
+.b2{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f8f8f8; */
+    align-items: end;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    
+  }
+  .b3{
+    background-color: #f8f8f8;
+    
+  }
+  .y1{
+    color: black;
+    text-decoration: none;
+    
+   
+  }
+  .y1:hover{
+    text-decoration: underline;
+  }
+  
+  
+  .img1{
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    
+  }
+  .button1{
+    padding: 20px;
+    /* margin-right: 30px; */
+    /* border-color: white; */
+  }
+  .img2{
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    /* background-color: #ff2d55; */
+    padding: 10px 20px;
+    
+  }
+  .container { 
+    position: relative;
+    width: 100%; 
+    max-width: 600px; 
+     } 
+
+  .image1 { 
+    display: block; 
+    
+    padding: 20px;
+    background-color: #f8f8f8;
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+    border-radius: 20px; /* Optional: Rounded corners for a nicer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for*/
+   } 
+  .text { 
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translate(-30%, -30%);
+    padding: 10px;
+    /* text-align:left; */
+    color: black; }
+  
+ .c12:hover{
+  transform: scale(1.1);
+ }
+ .c12{
+  background-color: #f8f8f8;
+ }
+ 
+ .App-header2 {
+    background-color: #f8f8f8;
+    padding: 20px;
+    height: 300px;
+    background: linear-gradient( #a8c0ff, #f8f8f8, #f8f8f8); /* Adjust colors */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store-text1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    width: 636px;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+
+.store-highlight1 {
+    color: #007aff;
+    background: linear-gradient(to right, #007aff, #ff2d55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.help-section1 {
+    margin-top: 20px;
+   margin-left: 50px;
+   
+}
+.help-item1 {
+    margin: 0 20px;
+    text-align: left;
+    flex: 1; 
+    max-width: 300px;
+}
+
+.specialist-image1, .store-icon1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.help-link1 {
+  color: #007aff;
+  text-decoration: none;
+}
+
+.help-link1:hover {
+  text-decoration: underline;
+}
+.App-header1 {
+  background-color: #f8f8f8;
+  padding: 20px;
+  height: 300px;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .App1{
+  height: 500px;
+  background-color: #f8f8f8;
+ }

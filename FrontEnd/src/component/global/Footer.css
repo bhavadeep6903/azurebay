@@ -1,0 +1,11 @@
+.footer{
+    /* justify-content: center; */
+    /* margin: 0px 122.4px; */
+    margin-top: 0px; 
+    background-color: #f8f8f8;
+    width:100%;
+}
+.para1{
+    display: flex;
+    justify-content: space-between;
+}
